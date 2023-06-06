@@ -13,7 +13,7 @@ void naruci(struct tipovi korpa[100],struct cijene cijenaPoVelicini[12],char ime
 {
  int ukupnaCijena=0;
  cout<<"-----------------------------KORPA-----------------------------\n";
- for(int i=0;i<11;i++)
+ for(int i=0;i<=11;i++)
  {
   if(korpa[i].mala >0||korpa[i].srednja >0||korpa[i].velika ||korpa[i].ostalo>0||korpa[i].suhoMeso >0||korpa[i].masline ||korpa[i].dodatniSir >0)
   {
@@ -63,7 +63,7 @@ void save(struct tipovi korpa[100], struct cijene cijenaPoVelicini[12], char ime
     ofstream file("narudzbe.txt",ios::app);
     double ukupnaCijena;
 	if (file.is_open()) {
-        for (int i = 0; i < 11; i++) {
+        for (int i = 0; i <= 11; i++) {
             if (korpa[i].mala > 0 || korpa[i].srednja > 0 || korpa[i].velika || korpa[i].ostalo > 0 || korpa[i].suhoMeso > 0 || korpa[i].masline || korpa[i].dodatniSir > 0) {
                 if (i >= 0 && i <= 7) {
                     file << "\nID : " << i << endl;
