@@ -1,4 +1,5 @@
-
+#include <iostream>
+using namespace std;
 void naruci(struct tipovi korpa[100],struct cijene cijenaPoVelicini[12],char ime[12][100],int cijenePriloga[4],double udaljenost);
 struct tipovi{
  int mala,srednja,velika,ostalo,suhoMeso,masline,dodatniSir;
