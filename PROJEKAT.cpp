@@ -151,14 +151,9 @@ void meni(struct tipovi korpa[100],struct cijene cijenaPoVelicini[12],char ime[1
      }
     }
     else{
-     cout<<"Enter\n1 - Pomfrit\n2 - Pekarski krompir\n3 - Salata\n4 - Riza\n5 - To Change Kolicina of  - Exit\n";
-     cin>>pizzaBrojac;
-     if(pizzaBrojac>=1 && pizzaBrojac<=4)
-     {
       cout<<"Unesite kolicinu\n";
       cin>>br;
       korpa[id].ostalo=br;
-     }
 
     }
     if(wrongIdFlag==1)
