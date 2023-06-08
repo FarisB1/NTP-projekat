@@ -46,7 +46,7 @@ void meni(struct tipovi korpa[100],struct cijene cijenaPoVelicini[12],char ime[1
     case 1:
     {
      int drugiIzbor;
-     cout<<"MENI\n1 - Classic Burger\n2 - Cheeseburger\n3 - Mexico Burger\n4 - Chicken\n5 - Exit\n";
+     cout<<"MENI\n1 - Classic Burger\n2 - Cheeseburger\n3 - Mexico Burger\n4 - Chicken\n5 - Izlaz\n";
      cin>>drugiIzbor;
      if(drugiIzbor!=5)
 	 {
@@ -68,7 +68,7 @@ void meni(struct tipovi korpa[100],struct cijene cijenaPoVelicini[12],char ime[1
     case 2:
     {
      int drugiIzbor;
-     cout<<"Unesite\n1 - Margeritha\n2 - Mexicana\n3 - Capricciosa\n4 - Quattro formaggi\n5 - Exit\n";
+     cout<<"Unesite\n1 - Margeritha\n2 - Mexicana\n3 - Capricciosa\n4 - Quattro formaggi\n5 - Izlaz\n";
      cin>>drugiIzbor;
      if(drugiIzbor!=5){
       int velicinaIzbor;
@@ -98,7 +98,7 @@ void meni(struct tipovi korpa[100],struct cijene cijenaPoVelicini[12],char ime[1
     case 3:
     {
      int drugiIzbor;
-     cout<<"Izaberite prilog:\n1 - Pomfrit\n2 - Pekarski Krompir\n3 - Salata\n4 - Riza\n5 - Exit\n";
+     cout<<"Izaberite prilog:\n1 - Pomfrit\n2 - Pekarski Krompir\n3 - Salata\n4 - Riza\n5 - Izlaz\n";
      cin>>drugiIzbor;
      if(drugiIzbor<5 && drugiIzbor>0)
          korpa[drugiIzbor+8-1].ostalo++;
